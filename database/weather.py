@@ -33,14 +33,6 @@ def get_weather(city: str):
         return data
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    # try:
-    #     response = table.query(
-    #         KeyConditionExpresion=Key("id").eq(id)
-    #     )
-    #     return response["Items"]
-    # except ClientError as e:
-    #     return JSONResponse(content=e.response["Error"], status_code=500)
-    
 
 def get_weathers():
     try:
