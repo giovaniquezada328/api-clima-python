@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.sqlite3
+.DS_Store
+.vscode/
+__pypackages__/
+.aws-sam/
